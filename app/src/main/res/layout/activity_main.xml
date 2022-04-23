@@ -6,11 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".activity.MainActivity">
 
-    <fragment
+    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/Container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.zharfan.learnfeature.fragment.HomeFragment"
+        android:name="com.zharfan.learnfeature.fragment.ListJsonFragment"
         app:defaultNavHost="true"
         app:navGraph="@navigation/main_navigation"/>
 

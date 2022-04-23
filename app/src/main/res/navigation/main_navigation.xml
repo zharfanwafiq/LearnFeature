@@ -10,4 +10,9 @@
         android:name="com.zharfan.learnfeature.fragment.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/listJsonFragment"
+        android:name="com.zharfan.learnfeature.fragment.ListJsonFragment"
+        android:label="fragment_list_json"
+        tools:layout="@layout/fragment_list_json" />
 </navigation>
