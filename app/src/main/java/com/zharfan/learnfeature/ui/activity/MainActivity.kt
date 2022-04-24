@@ -1,8 +1,7 @@
-package com.zharfan.learnfeature.activity
+package com.zharfan.learnfeature.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.zharfan.learnfeature.R
 import com.zharfan.learnfeature.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

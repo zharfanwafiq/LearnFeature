@@ -1,4 +1,4 @@
-package com.zharfan.learnfeature.fragment
+package com.zharfan.learnfeature.ui.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.zharfan.learnfeature.adapter.ListFeatureAdapter
+import com.zharfan.learnfeature.ui.adapter.ListFeatureAdapter
 import com.zharfan.learnfeature.data.ListFeature
 import com.zharfan.learnfeature.data.ListFeatureData
 import com.zharfan.learnfeature.databinding.FragmentHomeBinding

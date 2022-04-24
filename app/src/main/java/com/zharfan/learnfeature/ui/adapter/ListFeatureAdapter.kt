@@ -1,4 +1,4 @@
-package com.zharfan.learnfeature.adapter
+package com.zharfan.learnfeature.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

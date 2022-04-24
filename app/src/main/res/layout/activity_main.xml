@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.MainActivity">
+    tools:context=".ui.activity.MainActivity">
 
     <fragment
         android:id="@+id/Container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.zharfan.learnfeature.fragment.HomeFragment"
+        android:name="com.zharfan.learnfeature.ui.fragment.HomeRetrofitFragment"
         app:defaultNavHost="true"
         app:navGraph="@navigation/main_navigation"/>
 
